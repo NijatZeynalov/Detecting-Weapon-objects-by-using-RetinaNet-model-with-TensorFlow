@@ -22,5 +22,7 @@ connections eg. ResNet + FPN)
 
 First of all, I cloned the [Tensorflow Model Garden](https://github.com/tensorflow/models) and install the Tensorflow 2 [Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).
 
-Next, I downloaded [RetinaNet](https://arxiv.org/abs/1708.02002) modle checkpoints and copy it inside the object detection directory.
- save each result in a results dictionary and the autograder will use this to evaluate your results.
+Next, I downloaded [RetinaNet](https://arxiv.org/abs/1708.02002) modle checkpoints and copied it inside the object detection directory. After this, I configured the model for this use case. I used **model_builder** to build the model according to the configurations that I have just downloaded and customized.
+
+ Although I have just used 4 images for training, model performance to get the detection scores and bounding boxes to overlay in test images is so good. I saved each result in a results1 dictionary and the autograder used this to evaluate my results. Some test results: 
+
