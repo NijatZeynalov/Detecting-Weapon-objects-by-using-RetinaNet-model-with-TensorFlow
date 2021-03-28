@@ -29,3 +29,23 @@ Next, I downloaded [RetinaNet](https://arxiv.org/abs/1708.02002) modle checkpoin
 ![](https://raw.githubusercontent.com/NijatZeynalov/Detecting-Weapon-objects-by-using-RetinaNet-model-with-TensorFlow/main/result/gif_frame_0000.jpg)
 
 ![](https://raw.githubusercontent.com/NijatZeynalov/Detecting-Weapon-objects-by-using-RetinaNet-model-with-TensorFlow/main/result/gif_frame_0001.jpg)
+
+I saved my results in the **results.data** file.
+
+### References:
+
+[Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)
+
+
+[TensorFlow blog](https://blog.tensorflow.org/)
+
+[TensorFlow Object Detection API](https://blog.tensorflow.org/2020/07/tensorflow-2-meets-object-detection-api.html)
+ 
+[TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+
+
+[Advanced Computer Vision with TensorFlow](https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow?specialization=tensorflow-advanced-techniques)
+
+[Intro to Object Detection with TensorFlow](https://github.com/tensorflow/models/blob/master/research/object_detection/colab_tutorials/inference_tf2_colab.ipynb)
+ 
+[Eager Few Shot Object Detection Colab](https://github.com/tensorflow/models/blob/master/research/object_detection/colab_tutorials/eager_few_shot_od_training_tf2_colab.ipynb)
