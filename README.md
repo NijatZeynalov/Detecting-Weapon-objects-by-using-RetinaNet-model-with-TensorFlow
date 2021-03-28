@@ -25,4 +25,7 @@ First of all, I cloned the [Tensorflow Model Garden](https://github.com/tensorfl
 Next, I downloaded [RetinaNet](https://arxiv.org/abs/1708.02002) modle checkpoints and copied it inside the object detection directory. After this, I configured the model for this use case. I used **model_builder** to build the model according to the configurations that I have just downloaded and customized.
 
  Although I have just used 4 images for training, model performance to get the detection scores and bounding boxes to overlay in test images is so good. I saved each result in a results1 dictionary and the autograder used this to evaluate my results. Some test results: 
+ 
+![](https://raw.githubusercontent.com/NijatZeynalov/Detecting-Weapon-objects-by-using-RetinaNet-model-with-TensorFlow/main/result/gif_frame_0000.jpg)
 
+![](https://raw.githubusercontent.com/NijatZeynalov/Detecting-Weapon-objects-by-using-RetinaNet-model-with-TensorFlow/main/result/gif_frame_0001.jpg)
